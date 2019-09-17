@@ -1,0 +1,58 @@
+{
+  "name": "frijoleslentejas/compumedica",
+  "version": "0.0.1",
+  "type": "project",
+  "keywords": ["equipos", "hoja de vida", "compumedica"],
+  "homepage": "https://google.com",
+  "time": "2019-09-17",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Catalina Castro",
+      "email": "capo6587@gmail.com",
+      "homepage": "http://www.sena.edu.co",
+      "role": "Developer"
+    },
+    {
+      "name": "Nicolas Vargas",
+      "email": "navargas332@misena.edu.co",
+      "homepage": "http://www.sena.edu.co",
+      "role": "Developer"
+    },
+    {
+      "name": "Camilo Alarcon",
+      "email": "camilo4750@gmail.com",
+      "homepage": "http://www.sena.edu.co",
+      "role": "Developer"
+    },
+    {
+      "name": "Luisa Vasquez",
+      "email": "camilo4750@gmail.com",
+      "homepage": "http://www.sena.edu.co",
+      "role": "Developer"
+    }
+  ],
+  "require":{
+    "php": ">=7.1.0",
+    "almasaeed2010/adminlte" :"2.4.*"
+  },
+
+  "require-dev": {
+
+  },
+  "autoload": {
+
+  },
+  "scripts": {
+    "post-install-cmd": [
+    ],
+    "post-update-cmd": [
+    ]
+  },
+  "config": {
+    "bin-dir": "bin"
+  },
+  "extra": {
+
+  }
+}
