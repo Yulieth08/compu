@@ -84,11 +84,3 @@
 <!-- AdminLTE App -->
 <script src="../vendor/almasaeed2010/adminlte/dist/js/adminlte.min.js"></script>
 <!-- AdminLTE for demo purposes -->
-<script src="../vendor/almasaeed2010/adminlte/dist/js/demo.js"></script>
-<script>
-  $(document).ready(function () {
-    $('.sidebar-menu').tree()
-  })
-</script>
-</body>
-</html>
