@@ -334,11 +334,11 @@ class Persona extends db_abstract_class
 
 
 
-    public function Login($Documento_P, $Contraseña_P){
+    public function Login($Emai_P, $Contraseña_P){
         $tmp = new Persona();
-        $resultPersonas = $tmp->getRows("SELECT * FROM persona WHERE Usuario = '$Usuario'");
+        $resultPersonas = $tmp->getRows("SELECT * FROM persona WHERE Emai_P = '$Emai_P'");
         if(count($resultPersonas) >= 1){
-            $getrows = $tmp->getRows("SELECT * FROM persona WHERE Usuario = '$Usuario' AND Contrasena = '$Contraseña'");
+            $getrows = $tmp->getRows("SELECT * FROM persona WHERE Emai_P = '$Emai_P' AND Contraseña_P = '$Contraseña_P'");
             if(count($getrows) >= 1){                foreach ($getrows as $valor) {
                     $resultPersonas = new Persona($valor);
                     return $resultPersonas;
